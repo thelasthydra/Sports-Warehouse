@@ -1,0 +1,11 @@
+@import "partials/general/christmasVar";
+@import "all";
+
+.product,
+.cartItem, 
+.sidebar,
+header h1,
+body > .wrapper,
+header > .wrapper {
+	background-color: white;
+}

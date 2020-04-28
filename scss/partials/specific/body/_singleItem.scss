@@ -1,0 +1,65 @@
+#singleItem {
+	font-size: 1.6rem;
+	color: $gray;
+}
+
+	#singleItem > div {
+		display: flex;
+		align-items: stretch;
+	}
+
+		#singleItem div.left,
+		#singleItem div.right {
+			width: calc(100% / 2);
+		    display: flex;
+		    flex-direction: column;
+		    justify-content: center;
+		}
+
+	#singleItem img {
+		max-width: 75%;
+		max-height: 75%;
+		width: auto;
+		height: auto;
+		margin: auto;
+		display: block;
+		vertical-align: middle
+	}
+
+	#singleItem p {
+		margin-top: 0;
+	}
+
+	#singleItem input[type="submit"]{
+		background-color: $light-blue;
+		color: white;
+		padding: .5em;
+		border: none;
+		border-radius: .5em;
+		/* GRADIENT */
+		/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#0db9fa+0,00aced+100 */
+		background: #0db9fa; /* Old browsers */
+		background: -moz-linear-gradient(top,  #0db9fa 0%, #00aced 100%); /* FF3.6-15 */
+		background: -webkit-linear-gradient(top,  #0db9fa 0%,#00aced 100%); /* Chrome10-25,Safari5.1-6 */
+		background: linear-gradient(to bottom,  #0db9fa 0%,#00aced 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0db9fa', endColorstr='#00aced',GradientType=0 ); /* IE6-9 */
+	}
+
+		#singleItem input[type="submit"]:hover {
+			background: $light-blue;
+		}
+
+	#addToCartForm {
+		display: flex;
+		align-items: center;
+	}
+
+		#qty {
+			display: inline;
+			width: 2.5em;
+			margin: 0 1em 0 0;
+		}
+
+		#qty input {
+			text-align: center;
+		}

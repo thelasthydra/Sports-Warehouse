@@ -1,0 +1,47 @@
+#adminPage{
+	font-size: 1.6rem;
+}
+
+	#adminPage ul {
+		list-style: none;
+		padding: 0;
+	}
+
+	#adminPage li {
+		margin: .5em;
+	}
+
+	#adminPage a {
+		padding: .25em;
+		border-radius: .5em;
+		text-decoration: none;
+		color: inherit;
+	}
+
+		#adminPage li a:hover {
+			color: white;
+		}
+
+			#adminPage li.done a:hover {
+				background-color: #0a0;
+			}
+
+			#adminPage li.wip a:hover {
+				background-color: #a00;
+			}
+
+	#adminPage li.done::before,
+	#adminPage li.wip::before {
+		font-family: "FontAwesome";
+		margin-right: 1em;
+	}
+
+	#adminPage li.done::before {
+		content: "\f058";
+		color: #0a0;
+	}
+
+	#adminPage li.wip::before {
+		content: "\f057";
+		color: #a00;
+	}

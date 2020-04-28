@@ -1,0 +1,56 @@
+.mobile {
+	display: none;
+}
+
+.desktop {
+	display: initial;
+}
+
+h2 {
+	margin-bottom: 25px;
+	padding-left: 30px;
+}
+
+/////////// 
+// FORMS///
+///////////
+
+.form label {
+	text-align: right;
+	display: inline-block;
+}
+
+.form .input {
+	display: initial;
+	margin: 0;
+}
+
+.form #submit {
+	width: auto;
+}
+
+.form .input.xs {
+	width: 3em;
+}
+
+.form .input.small {
+	width: 7.2em;
+}
+
+.form .input.medium {
+	width: 12em;
+}
+
+.form .input.long {
+	width: 15em;
+}
+
+.form .input.xl {
+	width: 20em;
+}
+
+/* Specific Form Styling */
+
+#changePassword label {
+    width: 9em;
+}

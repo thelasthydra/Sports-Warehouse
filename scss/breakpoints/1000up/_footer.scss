@@ -1,0 +1,41 @@
+#main-footer {
+		padding: 0;
+		font-weight: lighter;
+	}
+
+		#main-footer .desktop h1 {
+			font-size: 2.2rem;
+		}
+
+		#main-footer .wrapper {
+			display: flex;
+			/*justify-content: */
+			align-items: stretch;
+		}
+
+		#main-footer .wrapper > * {
+			flex: 1;
+			padding: 10px 0 80px 20px;
+		}
+
+		#main-footer #footer-categories {
+			background-color: $orange;
+		}
+
+		#footer-categories li::before {
+			background-color: #993f08;
+		}
+
+		#main-footer .desktop .social a {
+			margin-left: 0;
+		}
+
+		.footer-nav li:hover,
+		#footer-categories li:hover {
+			color: $dark-blue;
+			font-weight: bold;
+		}
+
+	#copyright p {
+		display: inline;
+	}

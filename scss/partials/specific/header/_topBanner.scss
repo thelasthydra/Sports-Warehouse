@@ -1,0 +1,39 @@
+#top-banner {
+	background-color: $light-blue;
+	color: white;
+}
+	
+	#top-banner div.wrapper {
+		font-size: 1.4rem;
+		min-height: 40px;
+		padding-left: 10px;
+		padding-right: 5px;
+		margin-bottom: 15px;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+	
+	#top-banner a {
+		color: inherit;
+		text-decoration: none;
+	}
+
+		#top-banner #desktop-login {
+			margin-right: 30px;
+		}
+
+		#top-banner #view-cart {
+			margin-right: 10px;
+		}
+
+		#top-banner .right i {
+			padding-right: 10px;
+		}
+
+	#cart-items {
+		font-size: 1.3rem;
+		background-color: $med-blue;
+		padding: 5px 20px;
+		border-radius: 20px;
+	}

@@ -1,0 +1,49 @@
+#adminItems {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+    // Resets .price styling
+    #adminItems .price {
+        font-size: initial;
+        margin: initial;
+        margin-top: initial;
+        line-height: initial;
+        min-height: initial;
+    }
+
+#adminItems, #adminItems th, #adminItems td {
+    border: 1px solid $gray;
+    padding: .5em;
+}
+
+#adminItems thead tr {
+    text-align: center;   
+}
+
+#adminItems thead th {
+    background-color: $orange;
+    color: white;
+}
+
+#adminItems tbody tr:hover {
+    color: white;
+    background-color: $light-blue;
+}
+
+    #adminItems tbody tr:hover a {
+        color: $orange;
+    }
+
+td.price,
+td.salePrice,
+td.onSale,
+td.featured,
+td.category,
+td.edit {
+    text-align: center;
+}
+
+td.name {
+    text-align: right
+}

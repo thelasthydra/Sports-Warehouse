@@ -1,0 +1,32 @@
+#partners #partners-content {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+
+#partners p {
+	width: 230px;
+	margin-right: 10px;
+}
+
+	#partners-content > p a {
+		display: inline-block;
+	}
+
+#brands {
+	width: 710px;
+	height: 100px;
+	border-top-left-radius: 50px;
+	border-bottom-left-radius: 50px;
+}
+
+#brands > a {
+	max-width: calc(100% / 6);
+	display: flex;
+	align-items: baseline;
+	justify-content: center;
+}
+
+#brands .brand-img.top {
+	margin: 0;
+}

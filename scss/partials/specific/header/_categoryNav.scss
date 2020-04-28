@@ -1,0 +1,53 @@
+.categories-nav {
+	font-size: 1.6rem;
+	background-color: $dark-blue;
+	color: white;
+}
+
+	.categories-nav ul {
+		list-style: none;
+		padding: 10px 10px 0;
+		/* \/ Flex Stuff */
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+
+		.categories-nav li {
+			color: $light-blue;
+			text-decoration: none;
+			max-width: 145px;
+			padding: 10px;
+			border: 1px solid $light-blue;
+			border-radius: 10px;
+			margin-bottom: 10px;
+			/* \/ Flex Child Stuff */
+			flex-grow: 1; 
+			/* \/ Flex Stuff */
+			display: flex;
+			justify-content: space-between;
+			min-width: 40%;
+		}
+
+			.categories-nav li:nth-child(odd) {
+				margin-right: 5px;
+			}
+
+			.categories-nav li:nth-child(even) {
+				margin-left: 5px;
+			}
+
+			.categories-nav li:focus, 
+			.categories-nav li:hover {
+				color: white;
+				background-color: $light-blue;
+			} 
+
+			.categories-nav li::after {
+				content: "\003e" /*Greater Than Sign*/
+			}
+
+		.categories-nav a {
+			color: white;
+			text-decoration: none;
+		}

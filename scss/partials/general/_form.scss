@@ -1,0 +1,158 @@
+.form {
+	font-size: 1.6rem;
+}
+
+	.form fieldset {
+		margin: 2rem 5px 5px;
+		border: 2px solid $orange;
+		border-radius: 10px;
+		padding: 1.5rem;
+	}
+		.form fieldset:first-of-type{
+			margin: 5px;
+		}
+
+		.form legend {
+			background-color: $orange;
+			color: white;
+			padding: .75em;
+			border-radius: 10px;
+		}
+
+	.form label {
+		font-size: 1.5rem;
+		margin-right: .5em;
+	    width: 8em;
+	}
+
+	.form .input {
+		margin-top: .25em;
+		margin-bottom: .5em;
+		padding: .25em;
+		font-size: 1.25rem;
+		display: block;
+		width: 100%;
+	}
+
+	.form input[type="file"]{
+		font-size: 1.25rem;
+	}
+
+	.form input[type="submit"]{
+		font-size: 1.6rem;
+		padding: 1em;
+		border-radius: 10px;
+		border: none;
+		color: white;
+	}
+
+		// Types Of Buttons
+
+		.clear {
+			/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ff7619+0,ff690c+100 */
+			background: #ff7619; /* Old browsers */
+			background: -moz-linear-gradient(top,  #ff7619 0%, #ff690c 100%); /* FF3.6-15 */
+			background: -webkit-linear-gradient(top,  #ff7619 0%,#ff690c 100%); /* Chrome10-25,Safari5.1-6 */
+			background: linear-gradient(to bottom,  #ff7619 0%,#ff690c 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+			filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff7619', endColorstr='#ff690c',GradientType=0 ); /* IE6-9 */
+		}
+
+			.clear:hover {
+				background: #ff690c;
+			}
+
+			.back {
+				margin-top: 1em;
+				margin-left: 5px;
+			}
+
+		.submit {
+			/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#0db9fa+0,00aced+100 */
+			background: #0db9fa; /* Old browsers */
+			background: -moz-linear-gradient(top,  #0db9fa 0%, #00aced 100%); /* FF3.6-15 */
+			background: -webkit-linear-gradient(top,  #0db9fa 0%,#00aced 100%); /* Chrome10-25,Safari5.1-6 */
+			background: linear-gradient(to bottom,  #0db9fa 0%,#00aced 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+			filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0db9fa', endColorstr='#00aced',GradientType=0 ); /* IE6-9 */
+		}	
+
+			.submit:hover {
+				background: #00ACED;
+			}
+
+		.remove {
+			/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#990300+0,800000+100 */
+			background: red; /* Old browsers */
+			background: -moz-linear-gradient(top,  red 0%, #e60000 100%); /* FF3.6-15 */
+			background: -webkit-linear-gradient(top,  red 0%,#e60000 100%); /* Chrome10-25,Safari5.1-6 */
+			background: linear-gradient(to bottom,  red 0%,#e60000 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+			filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#990300', endColorstr='#800000',GradientType=0 ); /* IE6-9 */
+		}
+
+			.remove:hover {
+				background: #e60000;
+			}
+
+		.update {
+			/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#1a4350+0,002936+100 */
+			background: #264F5C; /* Old browsers */
+			background: -moz-linear-gradient(top,  #264F5C 0%, #002936 100%); /* FF3.6-15 */
+			background: -webkit-linear-gradient(top,  #264F5C 0%,#002936 100%); /* Chrome10-25,Safari5.1-6 */
+			background: linear-gradient(to bottom,  #264F5C 0%,#002936 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+			filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1a4350', endColorstr='#002936',GradientType=0 ); /* IE6-9 */
+		}
+
+			.update:hover {
+				background: #002936;
+			}
+
+	.form #questLabel {
+		text-align: initial;
+	}
+
+	.form textarea,
+	.form textarea.input {
+		width: 100%;
+		min-height: 5em;
+		display: block;
+		padding: .5em;
+		margin-top: .5em;
+	}
+
+	.form #submit {
+		background-color: $dark-blue;
+		color: white;
+		font-size: 1.35rem;
+		padding: 1em;
+		border: none;
+		border-radius: 5px;
+		width: 100%;
+		/*Gradient*/
+		/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#004b63+0,002936+100 */
+		background: #004b63; /* Old browsers */
+		background: -moz-linear-gradient(top,  #004b63 0%, #002936 100%); /* FF3.6-15 */
+		background: -webkit-linear-gradient(top,  #004b63 0%,#002936 100%); /* Chrome10-25,Safari5.1-6 */
+		background: linear-gradient(to bottom,  #004b63 0%,#002936 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#004b63', endColorstr='#002936',GradientType=0 ); /* IE6-9 */
+	}
+
+		.form #submit:hover {
+			background: #002936;
+		}
+
+	/* General Form Error Stuff */
+
+	p.error span.error-message {
+		display: initial;
+	}
+
+	span.error-message {
+		display: none;
+		color: red;
+		font-weight: lighter;
+		font-style: italic;
+		font-size: 1.35rem;
+	}
+
+	p.error label {
+		color: red;
+	}

@@ -1,0 +1,55 @@
+#mobile-header-nav {
+	position: absolute;
+	overflow: hidden;
+	background-color: $light-blue;
+	color: white;
+	font-size: 1.4rem;
+	margin-top: -15px; /* 15px is the margin under #top-banner so -15px eliminates the gap */
+	width: 100%;
+	height: 295px;
+	/* Animation */
+	transition: height 1.25s ease;
+}
+
+	#mobile-header-nav ul {
+		list-style: none;
+		margin-top: 15px;
+		padding: 0 10px 80px 10px;
+	}
+
+	#mobile-header-nav a {
+		text-decoration: none;
+		color: inherit;
+	}
+
+	#mobile-header-nav li {
+		border-top: solid 1px #80D6F6;
+		padding: 1rem 0;
+	}
+
+		#mobile-header-nav li:focus, 
+		#mobile-header-nav li:hover {
+			background-color: $dark-blue;
+		}
+
+		#mobile-header-nav a:last-of-type li {
+			border-bottom: solid 1px #80D6F6;
+		}
+
+		#mobile-header-nav i {
+			font-size: 1.2rem;
+			margin-left: 1.5rem;
+			margin-right: 1.5rem;
+		}
+		
+			#drop-down-login i {
+				font-size: 1rem;
+			}
+
+	/* Display Animation */
+
+	#mobile-header-nav.hidden {
+		height: 0px;
+		opacity: 0;
+		transition: height .5s ease-in, opacity 75s;
+	}

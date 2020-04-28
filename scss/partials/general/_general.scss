@@ -1,0 +1,77 @@
+html {
+	font-size: .625em; /* ~10px */
+}
+
+.clearFix:after {
+    display: block;
+    clear: both;
+    content: ".";
+    visibility: hidden;
+    line-height: 0;
+}
+
+html * {
+	box-sizing: border-box;
+}
+
+p {
+	color: $gray;
+}
+
+a {
+	color: $light-blue;
+	text-decoration: none;
+}
+
+	a:hover {
+		color: $orange;
+	}
+
+body {
+	font-family: 'Open Sans', Arial, sans-serif;
+	margin: 0;
+}
+
+main {
+	font-size: 1.6rem;
+}
+
+.wrapper {
+	max-width: 1000px;
+	margin: auto;
+}
+
+img {
+	width: 100%;
+	height: auto;
+}
+
+.left {
+	float: left;
+}
+
+.right {
+	float: right;
+}
+
+.desktop {
+	display: none;
+}
+
+.italics {
+	font-style: italic;
+}
+
+h2 {
+	font-weight: normal;
+	font-size: 1.8rem;
+	color: white;
+	background-color: $orange;
+	padding: 10px;
+	padding-left: 15px;
+	margin-left: 10px;
+	border-top-left-radius: 20px;
+	border-bottom-left-radius: 20px;
+}
+
+@import "form";

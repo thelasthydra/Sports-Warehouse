@@ -1,0 +1,31 @@
+// Imports Normalize CSS
+// normalize.css v8.0.1 | MIT License 
+// github.com/necolas/normalize.css
+@import "normalize";
+
+// Imports General Styling
+@import "partials/general/general";
+
+////////////////
+// MOBILE CSS //
+//////////////// 
+
+// Imports All The Header CSS
+@import "partials/specific/header";
+// Imports All Of The Body CSS
+@import "partials/specific/body";
+// Imports All Of The Footer CSS
+@import "partials/specific/footer";
+
+/////////////////
+// Desktop CSS //
+/////////////////
+
+// 1,000px+ Wide
+@import "breakpoints/1000up";
+
+// 610px+ Wide
+@import "breakpoints/610up";
+
+// Imports The Full 1,000 Line CSS File
+// @import "partials/general/all";

@@ -1,0 +1,31 @@
+#logo-container {
+	margin: auto;
+    max-width: 600px;
+    padding: 0 5px;
+} 
+
+#searchForm {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin: 15px auto;
+}
+
+	#search {
+		font-size: 1.6rem;
+		text-indent: 1rem; /*Shifts The Text Over A Little*/
+		border-radius: 20px;
+		padding: .20em;
+		border: solid 1px $gray;
+		margin-right: 10px;
+	}
+
+	#btnSearch {
+		background-color: $dark-blue;
+		color: white;
+		font-size: 1.8rem;
+		text-align: center;
+		padding: .5em;
+		border-radius: 50%;
+		border: none;
+	}

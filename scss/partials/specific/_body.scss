@@ -1,0 +1,25 @@
+main {
+	margin-bottom: 20px;
+}
+
+/***************
+  PUBLIC PAGES
+***************/ 
+
+// For Viewing A Range Of Items On The Website
+@import "body/items";
+// For Viewing An Individual Item (Add To Cart Page)
+@import "body/singleItem";
+// The Logos Of Partnered Brands
+@import "body/partners";
+// For The Shopping Cart Screen
+@import "body/cartitems";
+@import "body/noItems";
+@import "body/checkout";
+
+/******************
+  PROTECTED PAGES
+******************/ 
+
+// General Admin Page
+@import "body/adminPage";

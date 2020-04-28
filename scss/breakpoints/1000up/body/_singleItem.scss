@@ -1,0 +1,30 @@
+#singleItem div.left {
+	display: initial;
+}
+
+#singleItem img {
+	margin: 0;
+	margin-right: 20px;
+	float: right;
+}
+
+#singleItem .price {
+	margin: 0;
+}
+
+#singleItem .discounted {
+	margin-top: 0;
+}
+
+#singleItem .form label {
+	text-align: inherit;
+}
+
+#singleItem #qty {
+	width: 3.5em;
+}
+
+#singleItem #qty input {
+	text-align: inherit;
+	margin-top: .25em;
+}

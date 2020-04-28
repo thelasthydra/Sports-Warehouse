@@ -1,0 +1,33 @@
+#header-nav {
+	font-size: 1.4rem;
+}
+
+	#header-nav ul {
+		list-style: none;
+		padding: 0;
+	}
+
+	#header-nav li {
+		display: inline;
+	}
+
+	#header-nav a {
+		padding: 10px;
+		border-radius: 10px;
+		/* Transition */
+		-webkit-transition: all .1s linear;
+		-moz-transition: all .1s linear;
+		-ms-transition: all .1s linear;
+		-o-transition: all .1s linear;
+		transition: all .1s linear;
+	}
+
+		#header-nav a:hover {
+			background-color: $dark-blue;
+			/* Transition */
+			-webkit-transition: all .25s linear;
+			-moz-transition: all .25s linear;
+			-ms-transition: all .25s linear;
+			-o-transition: all .25s linear;
+			transition: all .25s linear;
+		}
